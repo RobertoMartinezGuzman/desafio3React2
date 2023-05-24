@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.imagen-home {
+  width: 18rem;
+}
+
+
+.active {
+  color: red;
+}
+
+.notActive {
+  color: white;
+}
+
+.navegador {
+  background-color: grey;
+  padding: 1rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+}
+
+img {
+  width: 30px;
+}
+
+.img-pokemon {
+  width: 20rem;
+}
+
+.contenedor-informacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  border-radius: 10px;
+  border-color: grey;
+  justify-content: space-evenly;
+
+}
+
+li {
+  text-align: start;
+}
+
+h6 {
+  color: grey;
+}
